@@ -18,7 +18,7 @@ class Stack(object):
         return len(self.items)
 
 s= Stack()
-s.push("ash")
+s.push("abc")
 print (s.peep())
 print (s.size())
 print (s.is_empty())
